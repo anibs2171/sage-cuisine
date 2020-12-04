@@ -17,4 +17,6 @@ class SearchItem extends Component {
 }
 
 export default SearchItem;
+
+//changes committed
     
