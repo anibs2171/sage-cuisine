@@ -8,7 +8,7 @@ class BrowseItem extends Component {
     render() {
         return(
             <div className='photo'>
-            <a href='/items' style={{'textDecoration':'none'}}>
+            <a href={this.props.page}style={{'textDecoration':'none'}}>
             <div className={'item-container '+this.props.imgtype}>
                 <h4 className='BrowseHead'>{this.props.children}</h4>
             </div>

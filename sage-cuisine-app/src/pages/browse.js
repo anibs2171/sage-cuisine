@@ -4,16 +4,17 @@ import SearchItem from '../components/search'
 import "./browse.css"
 function Browse() {
     return(
-        <div className="bro">
-        <div className="searchBar">
-        <SearchItem>search</SearchItem>
-        </div>
-        <div className="browseBox">
-            <BrowseItem imgtype='starters'>Starters</BrowseItem>
-            <BrowseItem imgtype='mainCourse'>Main Course</BrowseItem>
-            <BrowseItem imgtype='desserts'>Desserts</BrowseItem>
-        </div>
-        </div>
+            <div className="bro">
+            <div className="searchBar">
+            <SearchItem>search</SearchItem>
+            </div>
+            
+            <div className="browseBox">
+                <BrowseItem imgtype='starters' page="/appetizers">Appetizers</BrowseItem>
+                <BrowseItem imgtype='mainCourse' page="/maincourse">Main Course</BrowseItem>
+                <BrowseItem imgtype='desserts' page="/desserts">Desserts</BrowseItem>
+            </div>
+            </div>
      );
 }
 

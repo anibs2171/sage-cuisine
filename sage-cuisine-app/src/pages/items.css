@@ -1,4 +1,6 @@
 .item-page {
-    background-color: #fc6060;
-    height: 100vh;
+    background: url('../img/wood.jpg') center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }

@@ -8,10 +8,13 @@ function Home () {
     return(
         <div>
             <Hero />
-            <TextCard heading='You are a Mountain'>
-                Rip and Tear is what your assholes will do<br/>
-                after you get your hands on our bowls of<br/>
-                food
+            <TextCard heading='You were a boulder. I am a mountain!'>
+            <br/><br/>"Cooking is like love, it should be entered into with complete abandon...<br/>
+            Or not at all."<br/>
+            <br/>
+            "No one is is born a great cook, one learns by doing."<br/>
+            <br/>
+            "A recipe has no soul. You, as the cook,must bring soul to the recipe."
             </TextCard>
         </div>
     );

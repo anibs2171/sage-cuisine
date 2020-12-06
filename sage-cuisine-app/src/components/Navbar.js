@@ -13,7 +13,7 @@ const MenuList = [
         href: './locate'
     },
     {
-        title: "HELP",
+        title: "ABOUT",
         classes: 'menu-item-sage',
         href: './help'
     }
@@ -28,6 +28,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='nav-bar-sage'>
+                <img src="https://vgraphs.com/images/players/sprays/valorant-collectible-pulse-check-spray.png" width="200px"></img>
                 <a href='/' id='logo-href'><h1 className='nav-logo'>SAGE CUISINES</h1></a>
                 <div className='menu-icon-sage' onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
